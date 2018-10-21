@@ -28,13 +28,13 @@
 
 ***********************************************************************/
 
-#define PRINTER_NAME "TEVO Tarantula (EasyConfig)"  // Change this to whatever you wish, or leave it as it is.
+#define PRINTER_NAME "MCX Tarantula"  // Change this to whatever you wish, or leave it as it is.
                                                     // NOTE: Whatever you put here will have " Ready..." appended to it.
 
 /**
  * Equipment options
  */
-//#define LARGE_BED
+#define LARGE_BED
 #define SDSUPPORT
 //#define CHANGE_Y_DIRECTION        // If your bed homes in the wrong direction (it should move front to back) enable this.
 //#define CHANGE_X_DIRECTION        // If your X carriage homes in the wrong direction (it should move right to left) enable this.
@@ -79,7 +79,7 @@
  * Z-Probe type (must be none or one of them)
  * If a Z-Probe type is selected, a Bed Leveling type other than MANUAL must be selected.
  */
-//#define BLTOUCH         // ANTClabs BLTouch sensor (might also work with clones)
+#define BLTOUCH         // ANTClabs BLTouch sensor (might also work with clones)
 //#define SN04          // Green sensor
 //#define INDUCTIVE_NO  // Normally open inductive sensor
 //#define INDUCTIVE_NC  // Normally closed inductive sensor
@@ -110,7 +110,7 @@
  * Number of grid points in each direction
  * Minimum 3. Maximum 15 for UBL. Maximum 7 for MANUAL
  */
-#define GRID_POINTS        3
+#define GRID_POINTS        5
 
 /**
  * Margin around perimiter of bed for probing (will not probe outside this margin)
@@ -190,17 +190,17 @@
 #define Hot_PLA     215
 #define Bed_PLA      75
 
-#define Hot_ABS 		240
-#define Bed_ABS 		100
+#define Hot_ABS      240
+#define Bed_ABS      100
 
-#define Hot_PETG 		230
+#define Hot_PETG     230
 #define Bed_PETG     80
 
 /**
  * Fan Soft PWM. Use software PWM to drive the fan, as for the heaters. This uses a very low frequency
  * which is not as annoying as with the hardware PWM. Redo PID Autotune.
  */
-//#define SOFT_PWM
+#define SOFT_PWM
 
 /**
  * Enable this to provide a realtime control over the head position via the LCD menu system that works while printing.
@@ -1004,7 +1004,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-//#define S_CURVE_ACCELERATION
+#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
