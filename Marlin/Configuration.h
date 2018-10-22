@@ -28,7 +28,7 @@
 
 ***********************************************************************/
 
-#define PRINTER_NAME "MCX Tarantula"  // Change this to whatever you wish, or leave it as it is.
+#define PRINTER_NAME "MCX Tarantula 1"  // Change this to whatever you wish, or leave it as it is.
                                                     // NOTE: Whatever you put here will have " Ready..." appended to it.
 
 /**
