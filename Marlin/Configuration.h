@@ -29,7 +29,7 @@
 ***********************************************************************/
 
 #define PRINTER_NAME "MCX Tarantula"  // Change this to whatever you wish, or leave it as it is.
-                                                    // NOTE: Whatever you put here will have " Ready..." appended to it.
+                                      // NOTE: Whatever you put here will have " Ready..." appended to it.
 
 /**
  * Equipment options
@@ -55,7 +55,7 @@
  * (How to center prints: https://github.com/JimBrown/MarlinTarantula/wiki/How-to-center-your-prints-(EasyConfig))
  */
 #define NOZZLE_X          0
-#define NOZZLE_Y          0
+#define NOZZLE_Y          10
 
 /**
  * Minimal Z height (in mm) before homing (G28) for Z clearance above the bed, clamps, ...
@@ -143,7 +143,7 @@
 #define EXTRUDER_E1_Y 0
 #define EXTRUDER_E1_Z 0
 
-/** 
+/**
  * Secondary Extruder steps per mm
  * (how to calibrate: https://toms3d.org/2014/04/06/3d-printing-guides-calibrating-your-extruder/)
  */
