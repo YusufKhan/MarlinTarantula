@@ -28,8 +28,8 @@
 
 ***********************************************************************/
 
-#define PRINTER_NAME "MCX Tarantula 1"  // Change this to whatever you wish, or leave it as it is.
-                                                    // NOTE: Whatever you put here will have " Ready..." appended to it.
+#define PRINTER_NAME "MCX Tarantula"  // Change this to whatever you wish, or leave it as it is.
+                                     // NOTE: Whatever you put here will have " Ready..." appended to it.
 
 /**
  * Equipment options
@@ -110,7 +110,7 @@
  * Number of grid points in each direction
  * Minimum 3. Maximum 15 for UBL. Maximum 7 for MANUAL
  */
-#define GRID_POINTS        5
+#define GRID_POINTS        15
 
 /**
  * Margin around perimiter of bed for probing (will not probe outside this margin)
@@ -153,9 +153,9 @@
 /**
  * TEVO Tarantula Custom PID Settings - Stock Hotend
  */
-#define  hot_Kp 9.84
-#define  hot_Ki 0.50
-#define  hot_Kd 48.17
+#define  hot_Kp 18.61
+#define  hot_Ki 1.10
+#define  hot_Kd 78.88
 // FIND YOUR OWN: "M303 E0 C8 S200" to run autotune on the hotend at 200 degreesC for 8 cycles.
 // More info here: http://reprap.org/wiki/PID_Tuning
 
@@ -187,11 +187,11 @@
  *       CUSTOM_USER_MENUS for PETG to appear, along with PLA and ABS, under Custom Commands.
  *       PLA and ABS will appear under both Custom Command and Prepare.
  */
-#define Hot_PLA     215
-#define Bed_PLA      75
+#define Hot_PLA     200
+#define Bed_PLA      70
 
 #define Hot_ABS      240
-#define Bed_ABS      100
+#define Bed_ABS      90
 
 #define Hot_PETG     230
 #define Bed_PETG     80
@@ -285,7 +285,7 @@
  */
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
-#define CONFIGURATION_H_VERSION 020000
+#define CONFIGURATION_H_VERSION 020001
 
 //===========================================================================
 //============================= Getting Started =============================
