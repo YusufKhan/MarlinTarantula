@@ -115,7 +115,7 @@
 /**
  * Margin around perimiter of bed for probing (will not probe outside this margin)
  */
-#define BED_MARGIN         1
+#define BED_MARGIN         30
 
 /**
  * Servo probe deploy and stow angles
@@ -162,9 +162,9 @@
 /**
  * TEVO Tarantula Custom PID Settings - Stock Heatbed
  */
-#define  bed_Kp 984.88
-#define  bed_Ki 193.91
-#define  bed_Kd 1250.55
+#define  bed_Kp 210.65
+#define  bed_Ki 38.96
+#define  bed_Kd 284.75
 // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 // More info here: http://reprap.org/wiki/PID_Tuning
 
@@ -1262,7 +1262,7 @@
 // The size of the print bed
 #define X_BED_SIZE 200
 #if ENABLED(LARGE_BED)
-  #define Y_BED_SIZE 280
+  #define Y_BED_SIZE 250
 #else
   #define Y_BED_SIZE 200
 #endif
@@ -1273,7 +1273,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE + XTRA_BED_RIGHT
 #define Y_MAX_POS Y_BED_SIZE + XTRA_BED_FRONT
-#define Z_MAX_POS 200
+#define Z_MAX_POS 230
 
 // Z raise distance for tool-change, as needed for some extruders
 #define TOOLCHANGE_ZRAISE     2  // (mm)
