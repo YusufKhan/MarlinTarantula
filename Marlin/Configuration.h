@@ -123,6 +123,8 @@
 #define SERVO_DEPLOY    70
 #define SERVO_STOW      0
 
+#define ENDSTOP_NOISE_THRESHOLD  2
+
 /**
  * Enable this to turn on support for two extruders
  */
